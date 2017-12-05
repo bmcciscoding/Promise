@@ -92,7 +92,7 @@ fecthNetworkDataByPromise(url: "api/v1/list")
 
 Github 上也有很多优秀的第三方库，比如 [PromiseKit](https://github.com/mxcl/PromiseKit) 可以直接使用，但是你也可以选择自己去实现。一个简单的
 
-Promise 也不说一百行。
+Promise 代码也就100行。
 
 ### 怎么实现 Promise
 

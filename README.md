@@ -149,7 +149,6 @@ func then(_ onFulfilled: @escaping OnFulfilled,
 
 ```swift
 typealias Task = (@escaping OnFulfilled, @escaping OnRejected) -> Void
-var task: Task!
 // 立即执行
 init(_ task: @escaping Task) {
     task(self.onFulfilled, self.onRejected)

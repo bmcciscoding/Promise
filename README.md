@@ -125,7 +125,7 @@ var fulfillCallbacks: [OnFulfilled] = []
 var rejectCallbacks: [OnRejected] = []
 // 传入两个参数
 func then(_ onFulfilled: @escaping OnFulfilled, 
-          _ onRejected: @escaping OnOnRejected) -> Promise<Value> {
+          _ onRejected: @escaping OnRejected) -> Promise<Value> {
   switch state {
   // 若此时 promise 还没执行完，则需要保存
   case .pending:

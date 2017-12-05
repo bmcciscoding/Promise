@@ -13,7 +13,7 @@
 		315CF0681FD699ED001BB1B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315CF0671FD699ED001BB1B5 /* Assets.xcassets */; };
 		315CF06B1FD699ED001BB1B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315CF0691FD699ED001BB1B5 /* LaunchScreen.storyboard */; };
 		315CF0731FD69A5D001BB1B5 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315CF0721FD69A5D001BB1B5 /* Promise.swift */; };
-		315CF0751FD6B968001BB1B5 /* 实现自己的 Promise.md in Resources */ = {isa = PBXBuildFile; fileRef = 315CF0741FD6B967001BB1B5 /* 实现自己的 Promise.md */; };
+		315CF0751FD6B968001BB1B5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 315CF0741FD6B967001BB1B5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		315CF06A1FD699ED001BB1B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		315CF06C1FD699ED001BB1B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		315CF0721FD69A5D001BB1B5 /* Promise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
-		315CF0741FD6B967001BB1B5 /* 实现自己的 Promise.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "实现自己的 Promise.md"; sourceTree = "<group>"; };
+		315CF0741FD6B967001BB1B5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		315CF05F1FD699EC001BB1B5 /* Promise */ = {
 			isa = PBXGroup;
 			children = (
-				315CF0741FD6B967001BB1B5 /* 实现自己的 Promise.md */,
+				315CF0741FD6B967001BB1B5 /* README.md */,
 				315CF0721FD69A5D001BB1B5 /* Promise.swift */,
 				315CF0601FD699EC001BB1B5 /* AppDelegate.swift */,
 				315CF0621FD699EC001BB1B5 /* ViewController.swift */,
@@ -132,7 +132,7 @@
 				315CF06B1FD699ED001BB1B5 /* LaunchScreen.storyboard in Resources */,
 				315CF0681FD699ED001BB1B5 /* Assets.xcassets in Resources */,
 				315CF0661FD699ED001BB1B5 /* Main.storyboard in Resources */,
-				315CF0751FD6B968001BB1B5 /* 实现自己的 Promise.md in Resources */,
+				315CF0751FD6B968001BB1B5 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
